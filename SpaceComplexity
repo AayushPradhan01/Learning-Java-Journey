@@ -1,0 +1,8 @@
+SPACE COMPLEXITY :-
+
+AUXILIARY SPACE - Extra space or temporary space used by an algorithms.
+
+SPACE COMPLEXITY - Total space taken by the input + Auxiliary Space.
+
+       ||        =    Height of the tree(the path of the tree/ path of the nodes/ The longest chain).
+

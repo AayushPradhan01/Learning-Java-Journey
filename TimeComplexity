@@ -1,0 +1,39 @@
+TIME COMPLEXITY:-
+
+O(1) < O(log(N)) < O(N) < O(N LOG N) < O(2^N)(Exponential time complexity).
+
+Time complexity is a function that tells us how the time is going to increase as the input increases.
+(It does not give us the time taken to run the algorithm).
+
+
+WHAT DO WE NEED TO CONSIDER WHEN THINKING ABOUT COMPLEXITY?
+
+1) Always look for the worst case scenario.
+
+2) Always look at complexity for large/ infinite data.
+
+NOTE - It doesn't matter at what complexity small data is working.
+       Exponential complexity is the worst.
+
+3) Even though the actual time is different, the time complexity may still be same.
+   For example - It'll still be O(n) even if the slopes are different of the linearly increasing graph.
+
+4) We don't actually care about the actual time taken because it may vary from machine to machine.
+   We only care about how the time will grow as the input grows.
+
+5) IGNORE THE CONSTANTS. Equation for the slope like y = 3x + 5 might give the correct time taken.
+   But we don't want the time for the reason mentioned in 4th point.
+
+6) ALWAYS IGNORE THE LESS DOMINATING TERMS. Ex - O(N^3 + logN) --> ((1 mil)^3 + log(1 mil)).
+                                                                 = (1 Mill * 1 Mill * 1 Mill + 6).
+   Now 6 is much smaller than the cube of 1 Million. Hence, we can ignore it as it won't matter.
+   So if it is O(3N^3 + 4N^2 + 5N + 6). It will be (N^3 + N^2 + N) = O(N^3)).
+
+
+
+BIG O NOTATION :-
+
+It is the upper bound. for example, if the complexity if O(N^3) then it simply just means that it may
+be solved in almost any of the complexity less than that but it will never exceed the complexity O(N^3).
+That is, it can never be O(N^4).
+

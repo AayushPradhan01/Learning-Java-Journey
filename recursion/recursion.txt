@@ -1,0 +1,66 @@
+Recursion is a function calling itself rom within the function.
+All the function calls are stored in the stack memory.
+While the function is not finished executing, it will remain in stack.
+the Main function is the first to get stored in the Stack and the last to come out of the Stack.
+A function stays in the stack until it is finished.
+Stack follows LIFO, that is, Last In First Out.
+It will take space in the Stack is a separate function each time it calls itself.
+Every call takes memory.
+Base function must be written or else the function will keep calling itself.
+It helps us in solving bigger and complex problems easily.
+Important for Dynamic Programming(DP).
+You can convert any recursion function into iteration to get a more optimized answer.
+Directly solving through iteration is difficult.
+Space Complexity is not constant because of the recursive calls.
+It helps us in breaking down bigger problems into smaller problems.
+Visualising recursion is very significant.
+Recursion tree is essential to achieve the above. It will play a crucial role.
+
+HOW TO IDENTIFY THAT YOU CAN USE RECURSION? :-
+
+1) It comes with practice.
+
+2) See if you can solve a smaller version of the problem.
+
+When you write the recursion in a formula, it is called a recurrence relation.
+For example :- Fibonacci function can be written as fibo(n) = fibo(n - 1) + fibo(n - 2).
+
+
+The Base Condition is represented by the answers that we already have.
+For example:- the base condition in above example is fibo(1) fibo(0)  //
+
+the last statement in a recursion call is called Tail Recursion.
+
+
+
+
+STEPS TO APPROACH RECURSION :-
+
+1) See if you can break down the problem into smaller version of the problem which you can solve.
+
+2) Write the Recurrence Relation if needed.
+
+3) Draw the Recursive Tree.
+
+About The Tree :-
+          i) See the flow of functions, see how they are getting in Stack.
+         ii) Identify and focus on left tree calls and right tree calls.
+        iii) Draw the trees again and again using pen and paper. (VERY IMPORTANT).
+         iv) Use a Debugger to see the flow.
+
+4) See how the values (and what type of values) are returned at each step.
+
+5) See where the function call will come out of.
+
+Types of Recurrence Relations:
+1) Linear recurrence relation. Ex - fibo.
+2) Divide and Conquer recurrence relation. Ex - Binary Search.
+
+
+WHAT TYPE OF VARIABLE WILL BE PUT WHERE?
+ 1) Return type.
+ 2) Argument (Variable to be put in the argument).
+ 3) Body of the function.
+
+
+ WHENEVER YOU HAVE A FUNCTION WHICH HAS A RETURN TYPE, MAKE SURE THAT YOU RETURN THE RECURSION CALL.
